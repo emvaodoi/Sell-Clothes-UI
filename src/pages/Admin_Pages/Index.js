@@ -7,6 +7,7 @@ function Index() {
   return (
     <div>
       <Sidebar />
+      {/* Nav */}
       <div className="main-content" id="panel">
         <Header />
         {/* Header */}

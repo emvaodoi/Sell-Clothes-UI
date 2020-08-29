@@ -12,7 +12,6 @@ function Footer() {
               <a
                 href="https://www.creative-tim.com"
                 className="font-weight-bold ml-1"
-                target="_blank"
               >
                 Creative Tim
               </a>
