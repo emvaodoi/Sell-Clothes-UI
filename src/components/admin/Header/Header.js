@@ -136,7 +136,7 @@ function Header() {
                   </a>
                 </div>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link"
                   href="#"
@@ -187,7 +187,7 @@ function Header() {
                     </a>
                   </div>
                 </div>
-              </li>
+              </li> */}
             </ul>
             <ul className="navbar-nav align-items-center  ml-auto ml-md-0 ">
               <li className="nav-item dropdown">
@@ -208,7 +208,7 @@ function Header() {
                     </span>
                     <div className="media-body  ml-2  d-none d-lg-block">
                       <span className="mb-0 text-sm  font-weight-bold">
-                        John Snow
+                        Admin
                       </span>
                     </div>
                   </div>

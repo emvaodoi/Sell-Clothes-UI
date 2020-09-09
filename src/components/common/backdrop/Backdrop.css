@@ -1,0 +1,12 @@
+.backdropTheme {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background: rgba(17, 17, 17, 0.13); */
+    background: rgba(27, 27, 27, 0.116);
+    z-index: 7;
+}
+
+

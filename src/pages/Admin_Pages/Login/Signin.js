@@ -11,7 +11,9 @@ function Signin() {
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img
-              src={process.env.PUBLIC_URL + "/assets/admin/img/brand/white.png"}
+              src={
+                process.env.PUBLIC_URL + "/assets/admin/img/brand/logo193.png"
+              }
             />
           </Link>
           <button
@@ -36,7 +38,7 @@ function Signin() {
                     <img
                       src={
                         process.env.PUBLIC_URL +
-                        "/assets/admin/img/brand/blue.png"
+                        "/assets/admin/img/brand/logo192.png"
                       }
                     />
                   </Link>
@@ -242,11 +244,11 @@ function Signin() {
               <div className="copyright text-center text-xl-left text-muted">
                 © 2020{" "}
                 <a
-                  href="https://www.creative-tim.com"
+                  href="https://www.facebook.com/trunghieuITS/"
                   className="font-weight-bold ml-1"
                   target="_blank"
                 >
-                  Creative Tim
+                  Teamdibo
                 </a>
               </div>
             </div>
@@ -254,11 +256,11 @@ function Signin() {
               <ul className="nav nav-footer justify-content-center justify-content-xl-end">
                 <li className="nav-item">
                   <a
-                    href="https://www.creative-tim.com"
+                    href="https://www.facebook.com/trunghieuITS/"
                     className="nav-link"
                     target="_blank"
                   >
-                    Creative Tim
+                    Teamdibo
                   </a>
                 </li>
                 <li className="nav-item">

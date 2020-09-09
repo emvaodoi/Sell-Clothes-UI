@@ -5,7 +5,7 @@ import BackSidebar from "../../common/BackSidebar/BackSidebar";
 function Sidebar() {
   return (
     <nav
-      className="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white"
+      className="sidenav navbar navbar-vertical fixed-left navbar-expand-xs navbar-light bg-white"
       id="sidenav-main"
     >
       <BackSidebar />
@@ -15,7 +15,7 @@ function Sidebar() {
           {/* href="javascript:void(0)" của thẻ navbar-brand */}
           <Link className="navbar-brand" to="/">
             <img
-              src={process.env.PUBLIC_URL + "/assets/admin/img/brand/blue.png"}
+              src={process.env.PUBLIC_URL + "/assets/admin/img/brand/logo192.png"}
               className="navbar-brand-img"
               alt="..."
             />
@@ -54,7 +54,7 @@ function Sidebar() {
             {/* Navigation */}
             <ul className="navbar-nav mb-md-3">
               <li className="nav-item">
-                <Link className="nav-link" to="/factory">
+                <Link className="nav-link" to="/ticket">
                   <i className="ni ni-delivery-fast text-blue" />
                   <span className="nav-link-text">Ticket</span>
                 </Link>
@@ -66,43 +66,40 @@ function Sidebar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/factory">
+                <Link className="nav-link" to="/product">
                   <i className="ni ni-archive-2 text-danger" />
                   <span className="nav-link-text">Product</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/factory">
+                <Link className="nav-link" to="/order">
                   <i className="ni ni-basket text-green" />
                   <span className="nav-link-text">Order</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/factory">
+                <Link className="nav-link" to="/sale">
+                  <i className="ni ni-tag text-purple" />
+                  <span className="nav-link-text">Sale</span>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/user">
                   <i className="ni ni-circle-08 text-pink" />
                   <span className="nav-link-text">User</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/factory">
-                  <i className="ni ni-bell-55 text-purple" />
-                  <span className="nav-link-text">Notify</span>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/factory">
+                <Link className="nav-link" to="/note">
                   <i className="ni ni-collection text-blue" />
                   <span className="nav-link-text">Notes</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link active active-pro"
-                  href="https://www.facebook.com/trunghieuITS/"
-                >
-                  <i className="ni ni-send text-dark" />
-                  <span className="nav-link-text">Contact with DEV</span>
-                </a>
+                <Link className="nav-link" to="/chart">
+                  <i className="ni ni-chart-bar-32 text-pink" />
+                  <span className="nav-link-text">Chart</span>
+                </Link>
               </li>
             </ul>
           </div>

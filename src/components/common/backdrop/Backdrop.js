@@ -1,8 +1,8 @@
 import React from "react";
 import "./Backdrop.css";
 
-function backdrop() {
-  return <div className="backdrop"></div>;
+function backdrop(props) {
+  return <div className="backdropTheme" onClick={() => props.isClose()}></div>;
 }
 
 export default backdrop;

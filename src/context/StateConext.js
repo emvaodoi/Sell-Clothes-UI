@@ -6,6 +6,7 @@ export const initialState = {
   isLogin: false,
   isOpenSidebar: false,
 };
+
 export const reducer = (state = initialState, action) => {
   switch (action.type) {
     case "IS_OPEN_SIDEBAR":

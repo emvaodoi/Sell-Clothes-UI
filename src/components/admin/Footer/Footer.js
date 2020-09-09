@@ -10,10 +10,10 @@ function Footer() {
             <div className="copyright text-center  text-lg-left  text-muted">
               © 2020{" "}
               <a
-                href="https://www.creative-tim.com"
+                href="https://www.teamdibo.tk"
                 className="font-weight-bold ml-1"
               >
-                Creative Tim
+                Teamdibo.tk
               </a>
             </div>
           </div>
@@ -25,7 +25,7 @@ function Footer() {
                   className="nav-link"
                   target="_blank"
                 >
-                  Creative Tim
+                  Teamdibo
                 </a>
               </li>
               <li className="nav-item">

@@ -1,0 +1,13 @@
+.loading {
+    position: fixed;
+    background: #22222218;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
